@@ -11,10 +11,10 @@ the raywenderich Tutorial Team의 "[iOS Test-Driven Development by Tutorials, 1s
 
 ### Section I: Hello, TDD!
 
-| Chapter | Title         | Date |
-| ------: | ------------- | ---- |
-|       1 | What Is TDD?  |      |
-|       2 | The TDD Cycle |      |
+| Chapter | Title         | Date        |
+| ------: | ------------- | ----------- |
+|       1 | What Is TDD?  | 2020.06.22. |
+|       2 | The TDD Cycle | 2020.06.22. |
 
 ### Section II: Beginning TDD
 
