@@ -18,12 +18,12 @@ the raywenderich Tutorial Team의 "[iOS Test-Driven Development by Tutorials, 1s
 
 ### Section II: Beginning TDD
 
-| Chapter | Title                        | Date |
-| ------: | ---------------------------- | ---- |
-|       3 | TDD App Setup                |      |
-|       4 | Test Expressions             |      |
-|       5 | Test Expectations            |      |
-|       6 | Dependency Injection & Mocks |      |
+| Chapter | Title                        | Date        |
+| ------: | ---------------------------- | ----------- |
+|       3 | TDD App Setup                | 2020.06.23. |
+|       4 | Test Expressions             |             |
+|       5 | Test Expectations            |             |
+|       6 | Dependency Injection & Mocks |             |
 
 ### Section III: TDD with Networking
 
