@@ -36,3 +36,5 @@ codes/**/*.xcodeproj/*
 !codes/**/*.xcworkspace/contents.xcworkspacedata
 codes/**/*.gcno
 codes/**/**/xcshareddata/WorkspaceSettings.xcsettings
+
+iOS_Test_Driven_Development_by_Tutorials_v1.0.0_code/
