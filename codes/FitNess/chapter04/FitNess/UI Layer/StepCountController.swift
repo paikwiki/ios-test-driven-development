@@ -70,7 +70,7 @@ class StepCountController: UIViewController {
     updateButton()
     updateChaseView()
   }
-
+  
   private func updateButton() {
     let title = AppModel.instance.appState.nextStateButtonLabel
     startButton.setTitle(title, for: .normal)
@@ -97,7 +97,7 @@ class StepCountController: UIViewController {
 extension StepCountController {
 
   func updateGoal(newGoal: Int) {
-    // update this function
+    AppModel.instance.dataModel.goal = newGoal
   }
 
   private func showNeedGoalAlert() {
@@ -136,6 +136,6 @@ extension StepCountController {
 extension StepCountController {
 
   private func updateChaseView() {
-    // update this function
+    chaseView.state = AppModel.instance.appState
   }
 }

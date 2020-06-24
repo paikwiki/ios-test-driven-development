@@ -19,6 +19,8 @@
 		0A9EB50B21C072F00062B66E /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EB50A21C072F00062B66E /* AppModel.swift */; };
 		0AA5E735219B9B4600B7A0D0 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA5E734219B9B4600B7A0D0 /* AppState.swift */; };
 		5C2901831F8F6DE700803663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2901821F8F6DE700803663 /* LaunchScreen.storyboard */; };
+		994A685024A36B7400415B5B /* ViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994A684F24A36B7400415B5B /* ViewControllers.swift */; };
+		994A685324A36C2900415B5B /* RootViewController+Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994A685224A36C2900415B5B /* RootViewController+Tests.swift */; };
 		99BB595224A20EEF00704576 /* DataModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB595124A20EEF00704576 /* DataModelTests.swift */; };
 		D2A5F20B1F4A9144005CD714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F20A1F4A9144005CD714 /* Assets.xcassets */; };
 		D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */; };
@@ -49,6 +51,8 @@
 		0A9EB50A21C072F00062B66E /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		0AA5E734219B9B4600B7A0D0 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		5C2901821F8F6DE700803663 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		994A684F24A36B7400415B5B /* ViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllers.swift; sourceTree = "<group>"; };
+		994A685224A36C2900415B5B /* RootViewController+Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootViewController+Tests.swift"; sourceTree = "<group>"; };
 		99BB595124A20EEF00704576 /* DataModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelTests.swift; sourceTree = "<group>"; };
 		D2A5F2001F4A9144005CD714 /* FitNess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitNess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A5F20A1F4A9144005CD714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -163,11 +167,29 @@
 			path = "UI Layer";
 			sourceTree = "<group>";
 		};
+		994A684E24A36B4A00415B5B /* Test Classes */ = {
+			isa = PBXGroup;
+			children = (
+				994A684F24A36B7400415B5B /* ViewControllers.swift */,
+			);
+			path = "Test Classes";
+			sourceTree = "<group>";
+		};
+		994A685124A36BD800415B5B /* Test Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				994A685224A36C2900415B5B /* RootViewController+Tests.swift */,
+			);
+			path = "Test Extensions";
+			sourceTree = "<group>";
+		};
 		D2A5F1F71F4A9143005CD714 = {
 			isa = PBXGroup;
 			children = (
 				D2A5F2021F4A9144005CD714 /* FitNess */,
 				0A21C7D621C6BF8B00169D8B /* FitNessTests */,
+				994A685124A36BD800415B5B /* Test Extensions */,
+				994A684E24A36B4A00415B5B /* Test Classes */,
 				D2A5F2011F4A9144005CD714 /* Products */,
 			);
 			indentWidth = 2;
@@ -313,7 +335,9 @@
 			files = (
 				0A80ED3B21CB2A14000B04E3 /* DataModel.swift in Sources */,
 				0A1BDA14218E542100804262 /* RootViewController.swift in Sources */,
+				994A685024A36B7400415B5B /* ViewControllers.swift in Sources */,
 				0A1BDA15218E542100804262 /* StepCountController.swift in Sources */,
+				994A685324A36C2900415B5B /* RootViewController+Tests.swift in Sources */,
 				0AA5E735219B9B4600B7A0D0 /* AppState.swift in Sources */,
 				0A2EC8DF21D3E7020091A995 /* AppError.swift in Sources */,
 				D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */,
