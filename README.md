@@ -21,7 +21,7 @@ the raywenderich Tutorial Team의 "[iOS Test-Driven Development by Tutorials, 1s
 | Chapter | Title                        | Date        |
 | ------: | ---------------------------- | ----------- |
 |       3 | TDD App Setup                | 2020.06.23. |
-|       4 | Test Expressions             |             |
+|       4 | Test Expressions             | 2020.06.24. |
 |       5 | Test Expectations            |             |
 |       6 | Dependency Injection & Mocks |             |
 
